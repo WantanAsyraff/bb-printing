@@ -5,7 +5,8 @@
         desc: String,
         image: String,
         itemName: String,
-        price: Number
+        price: Number,
+        forwardMsg: String        
     })
 </script>
 

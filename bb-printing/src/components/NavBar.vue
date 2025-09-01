@@ -2,11 +2,12 @@
 
 <template>
     <header>
+        <h1>BUMI BORNEO T-SHIRT PRINTING</h1>
         <nav class="nav-bar">
             <ul>
               <li><router-link to="/">home</router-link></li>
-              <li><router-link to="/gallery">gallery</router-link></li>
               <li><router-link to="/catalogue">catalogue</router-link></li>
+              <li><router-link to="/gallery">gallery</router-link></li>
               <li><router-link to="/contact">contact</router-link></li>    
             </ul>
         </nav>

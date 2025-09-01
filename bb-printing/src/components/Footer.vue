@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <h2>This is gallery</h2>
+    <footer>
+        
+    </footer>
 </template>
 
 
