@@ -2,10 +2,11 @@
 </script>
 
 <template>
+    <!--Image Previews-->
     <section class="image-slider">
         <img src="" class="#" alt="Img-Slider"></img>
     </section>
-
+    <!--Main contents-->
     <section class="landing-page">
         <div class="service-intro">
             <h2>What Are We?</h2>
@@ -15,6 +16,7 @@
                 schools, or personal projects, we provide top-notch printing services with fast turnaround 
                 and excellent customer support. 
             </p>
+            <img src="" alt="about-us img"></img>
         </div>
         <div class="why-us">
             <h2>Why Choose Us?</h2>
@@ -51,8 +53,25 @@
             </div>
         </div>
     </section>
+    <!--Ending-->
+    <section class="contact-us-today">
+        <div class="phone-num">
+            <p>Liz — +601 1001 8587</p>
+            <p>Wan Zx — +601 0886 5575</p>
+        </div>
+        <div class="email">
+            <p>Email: wanzx@gmail.com</p>
+        </div>
+        <div class="socials">
+            <p><a href="#">Facebook: Bumi Borneo T-Shirt Printing</a></p>
+        </div>
+    </section>
 </template>
 
 
 <style scoped>
+    .landing-page {
+        padding: 4rem;
+        margin: 4rem;
+    }
 </style>

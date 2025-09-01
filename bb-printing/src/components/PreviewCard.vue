@@ -42,16 +42,17 @@
     }
     .item-card {
         display: inline-block;
-        background-color: antiquewhite;
+        background-color: #847c9d;
+        color: #080f55;
         border-radius: 0.5rem;
-        box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 4px rgba(15,15,39);
         margin: 0.8rem;
         padding: 0.5rem;
         overflow: hidden;
         min-width: 250px;
-        min-height: 350px;
+        min-height: 400px;
         max-width: 250px;
-        max-height: 500px;
+        max-height: 400px;
         text-overflow: hidden;
         transition: all 2.3s cubic-bezier(0.075, 0.82, 0.165, 1); /*Defines a default transition for your class*/
     }

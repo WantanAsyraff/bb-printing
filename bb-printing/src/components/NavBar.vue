@@ -2,13 +2,13 @@
 
 <template>
     <header>
-        <h1>BUMI BORNEO T-SHIRT PRINTING</h1>
         <nav class="nav-bar">
+            <img src="@/assets/imgs/bb-printing.jpg" alt="BB Printing Logo" width="150" height="150" />
             <ul>
-              <li><router-link to="/">home</router-link></li>
-              <li><router-link to="/catalogue">catalogue</router-link></li>
-              <li><router-link to="/gallery">gallery</router-link></li>
-              <li><router-link to="/contact">contact</router-link></li>    
+                <li><router-link to="/">home</router-link></li>
+                <li><router-link to="/catalogue">catalogue</router-link></li>
+                <li><router-link to="/gallery">gallery</router-link></li>
+                <li><router-link to="/contact">contact</router-link></li>    
             </ul>
         </nav>
     </header>
@@ -17,10 +17,14 @@
 <style scoped>
     .nav-bar {
         display: flex;
-        background-color: #f2f2f2;
+        background-color: white;
         justify-content: center;
         width: 100%;
-        box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 4px rgba(15,15,39);
+    }
+
+    .nav-bar img{
+        padding-right: 21rem;
     }
 
     .nav-bar ul{
@@ -34,16 +38,15 @@
     }
     
     .nav-bar ul li {
-        background-color: #f2f2f2;
         margin: 0 0.5rem;
         padding: 0px;
     }
     
     .nav-bar ul li a{
         display: inline-block;
-        font-family: 'Arimo', sans-serif;
-        color: black;
-        text-transform: capitalize;
+        font-weight: 900;
+        color: #080f55  ;
+        text-transform:uppercase;
         text-decoration: none;
         line-height: 40px;
         padding: 1rem 3rem;
@@ -59,8 +62,14 @@
         .nav-bar ul li a {
             margin: 1rem;
             padding: 0.2rem;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 800;
+        }
+
+        .nav-bar img {
+            width: 100px;
+            height: 100px;
+            padding-left: 1rem;
         }
     }
 </style>
