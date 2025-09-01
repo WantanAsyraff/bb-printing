@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+  import Gallery from './components/BentoBox.vue'
+</script>
 
 <template>
-  <h2>This is gallery</h2>
+  <Gallery />
 </template>
 
 

@@ -58,6 +58,7 @@
     }
 
     .item-card img {
+        max-height: 250px;
         height: 60%;
         width: 100%;
 
