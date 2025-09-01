@@ -1,11 +1,19 @@
-<script setup></script>
+<script setup>
+  import Navbar from './components/NavBar.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <Navbar />
 </template>
 
-<style scoped></style>
+
+<style scoped>
+  * {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
