@@ -4,12 +4,12 @@
 <template>
     <!--Image Previews-->
     <section class="image-slider">
-        <img src="" class="#" alt="Img-Slider"></img>
+        <!--Slider Here-->
     </section>
     <!--Main contents-->
     <section class="landing-page">
         <div class="service-intro">
-            <h2>What Are We?</h2>
+            <h2>Who Are We?</h2>
             <p>
                 Welcome to Bumi Borneo T-Shirt Printing, your trusted partner for high-quality and affordable custom 
                 apparel in Sibu, Sarawak. Whether you need t-shirts for corporate events, sports teams, family gatherings, 
@@ -28,8 +28,8 @@
                 <li><b>AFFORDABLE & NEGOTIABLE PRICING</b></li>
                 <li><b>QUALITY CUSTOMER SERVICE IN SIBU</b></li>
             </ul>
+            <img id="why-us-img" alt="Why Choose Us Img"></img>
         </div>
-        <img id="why-us-img" alt="Why Choose Us Img"></img>
         <div class="perfect-for">
             <div class="corpo">
                 <p>Corporate Uniform & Event</p>
@@ -70,8 +70,10 @@
 
 
 <style scoped>
-    .landing-page {
-        padding: 4rem;
-        margin: 4rem;
+    .landing-page, .service-intro, .why-us, .perfect-for {
+        margin: 3rem;
+        padding: 2rem;
+        padding-bottom: 1rem;
     }
+
 </style>
