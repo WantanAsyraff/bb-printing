@@ -21,14 +21,19 @@
 </template>
 
 <style scoped>
-    .item-card {
-        display: flex;
+    .item-card__info {
         flex-direction: column;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    .item-card {
+        display: inline-block;
         background-color: antiquewhite;
         border-radius: 0.5rem;
         box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-        margin: 2rem;
-        padding: 1rem;
+        margin: 0.8rem;
+        padding: 0.5rem;
         overflow: hidden;
         width: 250px;
         height: 350px;
@@ -36,10 +41,20 @@
     }
 
     .item-card img {
-        height: 90%;
+        height: 60%;
+        width: 100%;
+
     }
 
     .item-card:hover{
         transform: scale(1.05);
+    }
+
+    @media (max-width:768px) {
+        .item-card {
+            font-size: 12px;
+             width: 200px;
+            height: 300px;
+        }
     }
 </style>

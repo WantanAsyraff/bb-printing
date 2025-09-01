@@ -52,4 +52,13 @@
     .nav-bar ul li a:hover{
         transform:scale( 1.15);
     }
+
+    @media (max-width:768px) {
+        .nav-bar ul li a {
+            margin: 1rem;
+            padding: 0.2rem;
+            font-size: 16px;
+            font-weight: 800;
+        }
+    }
 </style>
