@@ -21,7 +21,19 @@
 </template>
 
 <style scoped>
+
+    .item-card__info .item-card___desc {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .item-card__info .item-card___price {
+        font-weight: 700;
+        margin: 0.5rem 0;
+    }
+
     .item-card__info {
+        display: flex;
         flex-direction: column;
         margin-bottom: 1rem;
         text-align: center;
@@ -35,8 +47,11 @@
         margin: 0.8rem;
         padding: 0.5rem;
         overflow: hidden;
-        width: 250px;
-        height: 350px;
+        min-width: 250px;
+        min-height: 350px;
+        max-width: 250px;
+        max-height: 500px;
+        text-overflow: hidden;
         transition: all 2.3s cubic-bezier(0.075, 0.82, 0.165, 1); /*Defines a default transition for your class*/
     }
 
@@ -53,8 +68,10 @@
     @media (max-width:768px) {
         .item-card {
             font-size: 12px;
-             width: 200px;
-            height: 300px;
+            min-width: 200px;
+            min-height: 300px;
+            max-width: 200px;
+            max-height: 500px ;
         }
     }
 </style>
