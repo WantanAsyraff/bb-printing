@@ -4,10 +4,10 @@
     <header>
         <nav class="nav-bar">
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">catalogue</a></li>
-              <li><a href="#">gallery</a></li>
-              <li><a href="#">contacts</a></li>
+              <li><router-link to="/">home</router-link></li>
+              <li><router-link to="/gallery">gallery</router-link></li>
+              <li><router-link to="/catalogue">catalogue</router-link></li>
+              <li><router-link to="/contact">contact</router-link></li>    
             </ul>
         </nav>
     </header>
@@ -19,6 +19,7 @@
         background-color: #f2f2f2;
         justify-content: center;
         width: 100%;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     }
 
     .nav-bar ul{
