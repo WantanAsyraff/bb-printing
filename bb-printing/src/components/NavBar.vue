@@ -5,10 +5,10 @@
         <nav class="nav-bar">
             <img src="@/assets/imgs/bb-printing.jpg" alt="BB Printing Logo" width="150" height="150" />
             <ul>
-                <li><router-link to="/">home</router-link></li>
-                <li><router-link to="/catalogue">catalogue</router-link></li>
-                <li><router-link to="/gallery">gallery</router-link></li>
-                <li><router-link to="/contact">contact</router-link></li>    
+                <li><router-link to="/"><i class="fa fa-home" aria-hidden="true"></i>home</router-link></li>
+                <li><router-link to="/catalogue"><i class="fa fa-archive" aria-hidden="true"></i>catalogue</router-link></li>
+                <li><router-link to="/gallery"><i class="fa fa-camera" aria-hidden="true"></i>gallery</router-link></li>
+                <li><router-link to="/contact"><i class="fa fa-commenting" aria-hidden="true"></i>contact</router-link></li>    
             </ul>
         </nav>
     </header>
@@ -24,7 +24,7 @@
     }
 
     .nav-bar img{
-        padding-right: 21rem;
+        padding-right: 7rem;
     }
 
     .nav-bar ul{
@@ -42,8 +42,11 @@
         padding: 0px;
     }
     
+    
     .nav-bar ul li a{
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
         font-weight: 900;
         color: #080f55  ;
         text-transform:uppercase;
@@ -59,17 +62,24 @@
     }
 
     @media (max-width:768px) {
+        .nav-bar ul {
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
         .nav-bar ul li a {
-            margin: 1rem;
-            padding: 0.2rem;
+            padding: 0px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            padding-left: 2rem;
             font-size: 14px;
-            font-weight: 800;
+            font-weight: 600;
         }
 
         .nav-bar img {
             width: 100px;
             height: 100px;
-            padding-left: 1rem;
+            padding-left: 1.5rem;
+            padding-right: 0rem;
         }
     }
 </style>
