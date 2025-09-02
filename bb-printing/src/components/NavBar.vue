@@ -62,6 +62,14 @@
     }
 
     @media (max-width:480px) {
+        .nav-bar ul {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .nav-bar ul li a {
+            font-size: 10px;
+        }
         .nav-bar img {
             display: none;
         }
