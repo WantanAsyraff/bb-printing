@@ -70,7 +70,7 @@
             padding: 0px;
             margin-top: 1rem;
             margin-bottom: 1rem;
-            padding-left: 2rem;
+            padding-left: 0px;
             font-size: 14px;
             font-weight: 600;
         }
