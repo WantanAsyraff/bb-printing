@@ -61,6 +61,12 @@
         transform:scale( 1.15);
     }
 
+    @media (max-width:480px) {
+        .nav-bar img {
+            display: none;
+        }
+    }
+
     @media (max-width:768px) {
         .nav-bar ul {
             margin-left: 2rem;

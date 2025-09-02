@@ -8,7 +8,7 @@
     const images = Object.values(modules).map(m => m.default)
     
     // Responsive itemsToShow
-    const itemsToShow = ref(window.innerWidth <= 768 ? 2.5 : 3)
+    const itemsToShow = ref(window.innerWidth <= 768 ? 2.5 : 3) // Mobile view
 
     function handleResize() {
     itemsToShow.value = window.innerWidth <= 768 ? 2 : 3
