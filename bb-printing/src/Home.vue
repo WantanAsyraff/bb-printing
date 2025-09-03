@@ -1,4 +1,5 @@
 <script setup>
+    import infoFooter from './components/Footer.vue'
     import 'vue3-carousel/dist/carousel.css'
     import { Carousel, Slide, Pagination } from 'vue3-carousel'
     import { ref, onMounted, onUnmounted } from 'vue'
@@ -37,20 +38,22 @@
 </script>
 
 <template>
-    <div class="home-wrapper">
+  <div class="home-wrapper">
     <div class="service-intro">
-        <h2>Who Are We?</h2>
-        <p>
-            Welcome to Bumi Borneo T-Shirt Printing, your trusted partner for high-quality and affordable custom 
-            apparel in Sibu, Sarawak. Whether you need t-shirts for corporate events, sports teams, family gatherings, 
-            schools, or personal projects, we provide top-notch printing services with fast turnaround 
-            and excellent customer support. 
-        </p>
-        <img src="" alt="about-us img"></img>
-        <h2>Our Designs</h2>
+        <div class="service-wrapper">
+            <h2>Who Are We?</h2>
+            <p>
+                Welcome to Bumi Borneo T-Shirt Printing, your trusted partner for high-quality and affordable custom 
+                apparel in Sibu, Sarawak. Whether you need t-shirts for corporate events, sports teams, family gatherings, 
+                schools, or personal projects, we provide top-notch printing services with fast turnaround 
+                and excellent customer support. 
+            </p>
+            <img src="" alt="about-us img"></img>
+        </div>
     </div>
     <!--Image Carousel-->
     <section class="image-slider">
+        <h2>Our Designs</h2>
         <Carousel v-bind="responsiveConfig">
             <Slide v-for="(img, idx) in images" :key="idx">
                 <div class="carousel__item">
@@ -78,6 +81,7 @@
             <img id="why-us-img" alt="Why Choose Us Img"></img>
         </div>
         <div class="perfect-for">
+            <h2>Perfect for</h2>
             <div class="corpo">
                 <p>Corporate Uniform & Event</p>
                 <img id="corpo" alt="corpo-img"></img>
@@ -101,33 +105,27 @@
         </div>
     </section>
     <!--Ending-->
-    <section class="contact-us-today">
-        <div class="phone-num">
-            <p>Liz — +601 1001 8587</p>
-            <p>Wan Zx — +601 0886 5575</p>
-        </div>
-        <div class="email">
-            <p>Email: wanzx@gmail.com</p>
-        </div>
-        <div class="socials">
-            <p><a href="#">Facebook: Bumi Borneo T-Shirt Printing</a></p>
-        </div>
-    </section>
-    </div>
+    <infoFooter />
+  </div>
 </template>
 
 
 <style scoped>
-
-    .service-intro {
-        padding: 1rem;
-        padding-top: 12rem;
-        margin: 2rem;
+    .why-us, .perfect-for, .service-wrapper{
+        background-color: white;
+        border-radius: 0.7rem;
     }
-    .landing-page, .why-us, .perfect-for {
+    
+    .service-intro {
+        padding-top: 12rem;
+    }
+    
+    .landing-page, .why-us, .perfect-for, .service-wrapper{
+        display:block;
+
         margin: 2rem;
-        padding: 1rem;
-        padding-bottom: 1rem;
+        padding: 3.5rem;
+        padding-top: 0.6rem;
     }
 
     .image-slider {

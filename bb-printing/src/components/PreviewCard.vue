@@ -22,7 +22,10 @@
 </template>
 
 <style scoped>
-
+    h2 {
+        font-size: 28px;
+        font-weight: 800;
+    }
     .item-card__info .item-card___desc {
         font-size: 12px;
         text-align: center;

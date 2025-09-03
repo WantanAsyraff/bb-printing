@@ -54,7 +54,7 @@
         align-items: center;
         gap: 0.5rem;
         font-weight: 900;
-        color: #080f55  ;
+        color: #080f55;
         text-transform:uppercase;
         text-decoration: none;
         line-height: 40px;

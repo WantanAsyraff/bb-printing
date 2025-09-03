@@ -2,14 +2,26 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    color: #080f55
   }
 
 body {
     background-color: #e3e4ed;
 }
 
+p {
+  font-size: 18px;
+}
+
 h1 {
     font-size: 80px;
+}
+
+
+h2 {
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
