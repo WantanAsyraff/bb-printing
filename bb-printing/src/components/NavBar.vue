@@ -16,11 +16,15 @@
 
 <style scoped>
     .nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
         display: flex;
         background-color: white;
         justify-content: center;
         width: 100%;
         box-shadow: 0px 2px 4px rgba(15,15,39);
+        z-index: 100000; /* Keep it above all other elements */
     }
 
     .nav-bar img{
