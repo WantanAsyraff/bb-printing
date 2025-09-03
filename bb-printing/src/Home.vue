@@ -9,10 +9,10 @@
     const images = Object.values(modules).map(m => m.default)
     
     // Responsive itemsToShow
-    const itemsToShow = ref(window.innerWidth <= 768 ? 1.1 : 3.05) // Mobile view
+    const itemsToShow = ref(window.innerWidth <= 768 ? 1.2 : 3.05) // Mobile view
 
     function handleResize() {
-    itemsToShow.value = window.innerWidth <= 768 ? 1.1 : 3.05
+    itemsToShow.value = window.innerWidth <= 768 ? 1.2 : 3.05
     }
 
     onMounted(() => {
@@ -40,6 +40,7 @@
 <template>
   <div class="home-wrapper">
     <div class="service-intro">
+        <img src="@/assets/imgs/bb-printing.jpg" class="mobile-logo" alt="BB Printing Logo" width="150"/>
         <div class="service-wrapper">
             <h2>Who Are We?</h2>
             <p>
@@ -48,7 +49,7 @@
                 schools, or personal projects, we provide top-notch printing services with fast turnaround 
                 and excellent customer support. 
             </p>
-            <img src="" alt="about-us img"></img>
+            <img src="@/assets/imgs/about-us.jpg" alt="about-us img" width="330"/>
         </div>
     </div>
     <!--Image Carousel-->
@@ -111,6 +112,9 @@
 
 
 <style scoped>
+    .mobile-logo {
+        display: none;
+    }
     .why-us, .perfect-for, .service-wrapper{
         background-color: white;
         border-radius: 0.7rem;
@@ -126,7 +130,22 @@
         padding: 3rem;
         padding-top: 0.6rem;
     }
+    
+    .service-wrapper {
+        display:flex;
+        gap: 1rem;
+        align-items: center;
+        padding-top: 3rem;
+    }
 
+    .service-wrapper img {
+        border-radius: 1rem;
+    }
+
+    .perfect-for h2 {
+        font-size: 35px;
+        padding-bottom: 1rem;
+    }
     .image-slider {
         margin-top: 2rem;
     }
@@ -164,6 +183,11 @@
     }
 
     @media (max-width: 768px) {
+        .mobile-logo {
+            width: 150;
+            height: 150;
+        }
+
     :deep(.carousel__pagination) {
         position: static !important; /* Removes absolute positioning */
         display: flex;
@@ -206,19 +230,30 @@
     }
 
     @media (max-width:480px) {
-        .image-slider img {
-        width: 350px;
-        height: 350px;
 
+    .mobile-logo {
+        margin-left: 30%;
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: center; /* horizontal centering */
+        align-items: center;    /* vertical centering if needed */
+        border-radius: 1rem;
+        box-shadow: 0px 2px 4px rgba(15,15,39);
     }
 
     .landing-page, .why-us, .perfect-for, .service-wrapper{
         display:block;
         margin: 0.0rem;
         margin-top: 1rem;
-        padding: 3rem;
-        padding-top: 0.6rem;
+        padding: 2rem;
+        padding-top: 0.9rem;
+        padding-bottom: 3rem;
     }
 
+    .service-wrapper h2, .service-wrapper p{
+        text-align: center;
+        padding-bottom: 2rem;
+        font-weight: 900;
+    }
     }
 </style>

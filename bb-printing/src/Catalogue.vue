@@ -45,9 +45,12 @@
   .catalog-section {
       padding: 1rem;
       padding-top: 10rem;
-      margin: 2rem;
+      margin: 1rem;
     }
-    
+    .catalog-section h1{
+      font-size: 36px;
+      padding-bottom: 1rem;
+    }
     .catalog-wrapper {
       display: flex;
       flex-wrap: wrap;
