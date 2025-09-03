@@ -69,8 +69,8 @@
 
     @media (max-width:480px) {
         .nav-bar ul {
-            margin-left: 1rem;
-            margin-right: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
         .nav-bar ul li a {
