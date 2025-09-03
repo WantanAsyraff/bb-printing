@@ -122,9 +122,8 @@
     
     .landing-page, .why-us, .perfect-for, .service-wrapper{
         display:block;
-
         margin: 2rem;
-        padding: 3.5rem;
+        padding: 3rem;
         padding-top: 0.6rem;
     }
 
@@ -195,12 +194,31 @@
         width: 350px;
         height: 350px;
     } 
+
+    .landing-page, .why-us, .perfect-for, .service-wrapper{
+        display:block;
+        margin: 0.0rem;
+        margin-top: 1rem;
+        padding: 3rem;
+        padding-top: 0.6rem;
+    }
+
     }
 
     @media (max-width:480px) {
         .image-slider img {
         width: 350px;
         height: 350px;
+
     }
+
+    .landing-page, .why-us, .perfect-for, .service-wrapper{
+        display:block;
+        margin: 0.0rem;
+        margin-top: 1rem;
+        padding: 3rem;
+        padding-top: 0.6rem;
+    }
+
     }
 </style>
