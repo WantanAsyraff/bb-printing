@@ -3,8 +3,16 @@
 </script>
 
 <template>
+  <h1>OUR PREVIOUS WORKS</h1>
   <Gallery />
 </template>
 
 
-<style scoped></style>
+<style scoped>
+  h1 {
+      padding: 1rem;
+      padding-top: 10rem;
+      margin: 2rem;
+      font-size: 80px;
+    }
+</style>

@@ -23,12 +23,14 @@
         background-color: white;
         justify-content: center;
         width: 100%;
+        height: 120px;
         box-shadow: 0px 2px 4px rgba(15,15,39);
         z-index: 100000; /* Keep it above all other elements */
     }
 
     .nav-bar img{
         padding-right: 7rem;
+        height: 120px;
     }
 
     .nav-bar ul{

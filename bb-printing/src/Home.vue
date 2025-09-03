@@ -37,6 +37,7 @@
 </script>
 
 <template>
+    <div class="home-wrapper">
     <div class="service-intro">
         <h2>Who Are We?</h2>
         <p>
@@ -46,6 +47,7 @@
             and excellent customer support. 
         </p>
         <img src="" alt="about-us img"></img>
+        <h2>Our Designs</h2>
     </div>
     <!--Image Carousel-->
     <section class="image-slider">
@@ -111,13 +113,20 @@
             <p><a href="#">Facebook: Bumi Borneo T-Shirt Printing</a></p>
         </div>
     </section>
+    </div>
 </template>
 
 
 <style scoped>
-    .landing-page, .service-intro, .why-us, .perfect-for {
-        margin: 3rem;
-        padding: 2rem;
+
+    .service-intro {
+        padding: 1rem;
+        padding-top: 12rem;
+        margin: 2rem;
+    }
+    .landing-page, .why-us, .perfect-for {
+        margin: 2rem;
+        padding: 1rem;
         padding-bottom: 1rem;
     }
 

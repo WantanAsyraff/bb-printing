@@ -4,7 +4,6 @@
 </script>
 
 <template>
-    <h2>Our Collections</h2>
     <div class="gallery">
         <div v-for="(img, i) in images"
         :key="i"

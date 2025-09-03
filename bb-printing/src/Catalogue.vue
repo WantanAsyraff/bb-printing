@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h2>This is catalogue page</h2>
+    <h1>STYLES WE OFFER</h1>
     <PreviewCard
     title="Round Neck"
     image="https://m.media-amazon.com/images/I/71BYZzlFEIL._UY1100_.jpg"
@@ -37,4 +37,11 @@
   />
 </template>
 
-<style scoped></style>
+<style scoped>
+  h1 {
+      padding: 1rem;
+      padding-top: 10rem;
+      margin: 2rem;
+      font-size: 70px;
+  }
+</style>
