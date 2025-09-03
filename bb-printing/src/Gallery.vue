@@ -13,6 +13,6 @@
       padding: 1rem;
       padding-top: 10rem;
       margin: 2rem;
-      font-size: 80px;
+      justify-content: center;
     }
 </style>
