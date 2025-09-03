@@ -3,7 +3,7 @@
 Official website for **Bumi Borneo T-Shirt Printing**, a custom apparel business based in Sibu, Sarawak.  
 This project doubles as both a **portfolio showcase** and a **functional business site** for my parents.
 
-Live Site: [bb-printing.vercel.app](https://bb-printing.vercel.app) (Hosted on Vercel)
+Live Site: [bb-printing.vercel.app]([https://bb-printing.vercel.app](https://bumi-borneo-tshirt-printing-three.vercel.app/)) (Hosted on Vercel)
 
 ---
 
