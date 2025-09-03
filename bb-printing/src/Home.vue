@@ -8,10 +8,10 @@
     const images = Object.values(modules).map(m => m.default)
     
     // Responsive itemsToShow
-    const itemsToShow = ref(window.innerWidth <= 768 ? 2.5 : 3) // Mobile view
+    const itemsToShow = ref(window.innerWidth <= 768 ? 1.2 : 1.8) // Mobile view
 
     function handleResize() {
-    itemsToShow.value = window.innerWidth <= 768 ? 2 : 3
+    itemsToShow.value = window.innerWidth <= 768 ? 1.2 : 3
     }
 
     onMounted(() => {
@@ -190,4 +190,10 @@
     } 
     }
 
+    @media (max-width:480px) {
+        .image-slider img {
+        width: 350px;
+        height: 350px;
+    }
+    }
 </style>

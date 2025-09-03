@@ -68,7 +68,7 @@
         }
 
         .nav-bar ul li a {
-            font-size: 10px;
+            font-size: 8px;
         }
         .nav-bar img {
             display: none;
