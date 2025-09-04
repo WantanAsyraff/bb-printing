@@ -6,8 +6,7 @@
         image: String,
         itemName: String,
         price: Number,
-        moq: Number,
-        forwardMsg: String      
+        moq: Number     
     })
 </script>
 
@@ -32,8 +31,15 @@
     h3 {
         text-align: center;
     }
-    .moq-section{
-        text-align: center;
+    
+    .moq-section {
+    margin-top: auto; /* pushes it down */
+    padding: 0.5rem 0; /* gives breathing room */
+    text-align: center;
+    }
+
+    .moq-section p {
+        font-size: 16px;
     }
     .item-card__info .item-card___desc {
         font-size: 12px;
@@ -53,21 +59,23 @@
         font-weight: 500;
     }
     .item-card {
-        display: inline-block;
-        background-color: #847c9d;
-        color: #080f55;
-        border-radius: 0.5rem;
-        box-shadow: 0px 2px 4px rgba(15,15,39);
-        margin: 0.8rem;
-        padding: 0.5rem;
-        overflow: hidden;
-        min-width: 250px;
-        min-height: 400px;
-        max-width: 250px;
-        max-height: 400px;
-        text-overflow: hidden;
-        transition: all 2.3s cubic-bezier(0.075, 0.82, 0.165, 1); /*Defines a default transition for your class*/
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space pushes top content up and MOQ down */
+    background-color: #847c9d;
+    color: #080f55;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 4px rgba(15,15,39);
+    margin: 0.8rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    min-width: 250px;
+    min-height: 400px;
+    max-width: 250px;
+    max-height: 400px;
+    text-overflow: hidden;
+    transition: all 2.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
     .item-card img {
         max-height: 250px;

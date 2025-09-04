@@ -81,16 +81,59 @@ Welcome to **Bumi Borneo T-Shirt Printing**, your trusted partner for high-quali
 
 # Custom printed t-shirts
 
-Common Styles
-Crew neck
-V-neck
-Scoop Neck
-Dolman
-Long Sleeve crew
-Unisex roundneck 
-polo
-Muslimah
+Perfect, honeybun 🐻💖 let’s make this list clean and pro so your customers (or lecturer 👀✨) can skim through easily. I’ll group them into **Neckline**, **Sleeve**, **Fit/Length**, and **Function/Fabric**. Each one will get a tiny one-liner description so it’s quick to digest 🌸
+
+---
+
+### 👕 Neckline Styles
+
+* **Crew Neck** – Classic round neckline, the most common everyday t-shirt.
+* **V-Neck** – Neckline dips into a "V" shape, giving a sharper, slimming look.
+* **Scoop Neck** – A wider, deeper round neckline for a softer style.
+* **Henley** – A crew neck with a short button placket, casual yet stylish.
+* **Polo** – Features a collar and buttoned placket, often seen as smart-casual.
+* **Mock Neck** – Short, slightly raised collar similar to a turtleneck.
+* **Muslimah** – Modest t-shirt with a longer cut and higher neckline.
+
+---
+
+### 👕 Sleeve Styles
+
+* **Short Sleeve / Standard** – The default sleeve length, ending at mid-arm.
+* **Long Sleeve Crew** – Full-length sleeves for a casual, layered look.
+* **Dolman Sleeve** – Loose sleeves cut in one piece with the body, roomy and comfy.
+* **Raglan / Baseball Tee** – Sleeves extend in one piece to the collar, usually in contrast color.
+* **Cap Sleeve** – Very short sleeves, just covering the shoulders.
+* **Sleeveless / Tank Tee** – No sleeves, popular for sports and summer wear.
+
+---
+
+### 👕 Fit & Length Styles
+
+* **Unisex Round Neck** – Standard fit designed to suit both men and women.
+* **Oversized Tee** – Baggy, relaxed fit for streetwear vibes.
+* **Fitted / Slim Fit Tee** – Tailored close to the body for a sleek silhouette.
+* **Crop Top Tee** – Shorter cut ending around the midriff, trendy and youthful.
+* **Longline Tee** – Extended length that goes past the hips for a modern style.
+
+---
+
+### 👕 Function & Fabric Styles
+
+* **Pocket Tee** – Features a small chest pocket, often for accent branding.
+* **Ringer Tee** – Crew neck and sleeve bands in contrasting colors for a retro look.
+* **Graphic Tee** – Defined by bold prints, designs, or branding.
+* **Tie-Dye Tee** – Colorful, swirled dye patterns, very casual and fun.
+* **Athletic / Performance Tee** – Made from moisture-wicking fabric for sports.
+* **Eco-Friendly Tee** – Sustainable materials like organic cotton, bamboo, or recycled polyester.
+
+---
+
+This way, pumpkin 🧸, your t-shirt list doesn’t just look like a pile of words — it’s sorted like a professional catalogue 🌟.
+
+Want me to format this into a **nice Markdown table** too, so it looks sleek and ready to drop into a project/website?
 
 Footer info 
 HQ Office, Information (All navs), Help(Extra info)
 We Specialize in, Working Hours
+

@@ -19,8 +19,12 @@
                 <li><router-link to="/contact"><i class="fa fa-commenting" aria-hidden="true"></i>contact</router-link></li>   
             </div>
             <div class="working-hours">
+                <h4>Location</h4>
+                <p>No 1 Jalan Bandong, 96000, Sibu, Sarawak</p>
+                <br>
                 <h4>Working Hours</h4>
                 <p>8:00am-9:00pm</p>
+                
             </div>
             <div class="other-contacts">
                 <h4>Other Contacts</h4>
