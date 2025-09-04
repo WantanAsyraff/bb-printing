@@ -87,38 +87,49 @@
         <div class="why-us">
             <h2>Why Choose Us?</h2>
             <ul>
-                <li><b>VARIETY OF STYLES</b></li>
-                <li><b>VARIOUS PRINTING OPTIONS</b></li>
-                <li><b>FREE GRAPHIC DESIGN SERVICE</b></li>
-                <li><b>VARIETY OF STYLES</b></li>
-                <li><b>AFFORDABLE & NEGOTIABLE PRICING</b></li>
-                <li><b>QUALITY CUSTOMER SERVICE IN SIBU</b></li>
+                <div class="perfect-grid">
+                    <div class="perfect-card">
+                        <li><b>VARIETY OF STYLES</b></li>
+                    </div>
+                    <div class="perfect-card">
+                        <li><b>VARIOUS PRINTING OPTIONS</b></li>
+                    </div>
+                    <div class="perfect-card">
+                        <li><b>FREE GRAPHIC DESIGN SERVICE</b></li>
+                    </div>
+                    <div class="perfect-card">
+                        <li><b>VARIETY OF STYLES</b></li>
+                    </div>
+                    <div class="perfect-card">
+                        <li><b>AFFORDABLE & NEGOTIABLE PRICING</b></li>
+                    </div>
+                    <div class="perfect-card">
+                        <li><b>QUALITY CUSTOMER SERVICE IN SIBU</b></li>
+                    </div>
+                </div>
             </ul>
-            <img id="why-us-img" alt="Why Choose Us Img"></img>
         </div>
         <div class="perfect-for">
-            <h2>Perfect for</h2>
-            <div class="corpo">
+    <h2>Perfect For</h2>
+        <div class="perfect-grid">
+            <div class="perfect-card">
                 <p>Corporate Uniform & Event</p>
-                <img id="corpo" alt="corpo-img"></img>
             </div>
-            <div class="clubs">
+            <div class="perfect-card">
                 <p>School & College Club</p>
-                <img id="clubs" alt="club-img"></img>
             </div>
-            <div class="sports">
+            <div class="perfect-card">
                 <p>Sport Teams & Tournaments</p>
-                <img id="sports" alt="sports-img"></img>
             </div>
-            <div class="family">
+            <div class="perfect-card">
                 <p>Family Day shirts & Reunions</p>
-                <img id="family" alt="family-img"></img>
             </div>
-            <div class="merch">
+            <div class="perfect-card">
                 <p>Merchandise & Business Branding</p>
-                <img id="merch" alt="merch-img"></img>
             </div>
         </div>
+    </div>
+
     </section>
     <!--Ending-->
     <infoFooter />
@@ -169,7 +180,16 @@
     .service-intro {
         padding-top: 12rem;
     }
-    
+    .perfect-card {
+    list-style: none;
+    background-color: #9cd7ff; /* soft highlight color */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    }
     .landing-page, .why-us, .perfect-for, .service-wrapper{
         display:block;
         margin: 2rem;
@@ -305,12 +325,45 @@
     }
 
     .landing-page, .why-us, .perfect-for, .service-wrapper{
+        list-style: none;
         display:block;
         margin: 0.0rem;
         margin-top: 1rem;
         padding: 2rem;
         padding-top: 0.9rem;
         padding-bottom: 3rem;
+    }
+
+    .perfect-for {
+        background-color: white;
+        border-radius: 0.7rem;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .perfect-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .perfect-card {
+    list-style: none;
+    background-color: #9cd7ff; /* soft highlight color */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    }
+    
+    .perfect-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .perfect-card p {
+        font-weight: 600;
+        margin: 0;
     }
 
     .service-wrapper h2, .service-wrapper p{
