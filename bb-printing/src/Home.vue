@@ -51,6 +51,21 @@
             </p>
             <img src="@/assets/imgs/about-us.jpg" alt="about-us img" width="330"/>
         </div>
+        <h2 id="benefits-header">Benefits</h2>
+        <div class="benefits-with-us">
+            <div class="shipping">
+                <i class="fa fa-ship" aria-hidden="true"></i>
+                <p>We ship all across all of Malaysia!</p>
+            </div>
+            <div class="prices">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <p>Negotiable prices</p>
+            </div>
+            <div class="quality">
+                <i class="fa fa-scissors" aria-hidden="true"></i>
+                <p>High quality prints</p>
+            </div>
+        </div>
     </div>
     <!--Image Carousel-->
     <section class="image-slider">
@@ -112,6 +127,37 @@
 
 
 <style scoped>
+
+    #benefits-header {
+        font-weight: 800;
+        padding-bottom: 3rem;
+    }
+
+    .benefits-with-us {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    .benefits-with-us div {
+        flex: 1;
+    }
+    .benefits-with-us p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .benefits-with-us i{
+        display: block;
+        font-size: 90px;
+        margin: 0 auto 1rem;
+        transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+
+    .benefits-with-us i:hover {
+        transform: scale(1.2);
+    }
+
     .mobile-logo {
         display: none;
     }
@@ -183,6 +229,23 @@
     }
 
     @media (max-width: 768px) {
+        #benefits-header {
+        font-weight: 800;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+        
+    .benefits-with-us p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .benefits-with-us i{
+        display: block;
+        font-size: 60px;
+        margin: 0 auto 1rem;
+    }
+
         .mobile-logo {
             width: 150;
             height: 150;

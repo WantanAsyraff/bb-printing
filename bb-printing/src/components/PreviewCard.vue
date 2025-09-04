@@ -6,7 +6,8 @@
         image: String,
         itemName: String,
         price: Number,
-        forwardMsg: String        
+        moq: Number,
+        forwardMsg: String      
     })
 </script>
 
@@ -17,21 +18,21 @@
             <h2 class="item-card__title">{{ title }}</h2>
             <h3 class="item-card___desc">{{ desc }}</h3>
         </div>
-        <div class="price-section">
-            <p class="item-card__price">RM {{ price.toFixed(2) }}/pcs</p>
+        <div class="moq-section">
+            <p class="item-card__moq">Min.Order Quantity {{ moq }}/pcs</p>
         </div>
     </div>
 </template>
 
 <style scoped>
     h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     h3 {
         text-align: center;
     }
-    .price-section{
+    .moq-section{
         text-align: center;
     }
     .item-card__info .item-card___desc {
@@ -39,8 +40,8 @@
         text-align: center;
     }
 
-    .item-card__info .item-card___price {
-        font-weight: 700;
+    .item-card__info .item-card___moq {
+        font-weight: 300;
         margin: 0.5rem 0;
     }
 
