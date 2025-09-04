@@ -46,6 +46,7 @@
         border-radius: 3rem;
         background-color: white;
         transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+        box-shadow: 0px 2px 4px rgba(15,15,39);
     }
 
     .contact-card:hover {
