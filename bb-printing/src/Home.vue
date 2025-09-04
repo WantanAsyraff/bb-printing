@@ -138,7 +138,9 @@
 
 
 <style scoped>
-
+    .shipping {
+        padding-left: 3rem;
+    }
     #benefits-header {
         font-weight: 800;
         padding-bottom: 3rem;
@@ -371,5 +373,9 @@
         padding-bottom: 2rem;
         font-weight: 900;
     }
+
+    .shipping {
+        padding-left: 0px;
     }
+}
 </style>

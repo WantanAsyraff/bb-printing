@@ -144,6 +144,7 @@
         />
 
         <!--FUNCTION AND FABRIC STYLES-->
+        <h2>FUNCTION AND FABRIC STYLES</h2>
         <shirt 
           image="https://i.pinimg.com/736x/77/2b/18/772b18a3d27199d97aaeb0d74f51e554.jpg"
           title="Pocket Tee"
