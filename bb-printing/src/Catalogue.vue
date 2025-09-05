@@ -1,7 +1,6 @@
 <script setup>
     import shirt from './components/PreviewCard.vue'
     import infoFooter from './components/Footer.vue'
-    
 </script>
 
 <template>
@@ -201,28 +200,28 @@
 </template>
 
 <style scoped>
-  .catalog-section {
-      padding: 1rem;
-      padding-top: 10rem;
-      margin: 1rem;
+    .catalog-section {
+        padding: 1rem;
+        padding-top: 10rem;
+        margin: 1rem;
     }
     .catalog-section h1{
-      font-weight: 800;
-      padding-bottom: 1rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
     }
     .catalog-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.2rem;
-      background-color: white;
-      border-radius: 0.7rem;
-      padding: 3.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.2rem;
+        background-color: white;
+        border-radius: 0.7rem;
+        padding: 3.5rem;
     }
 
     .catalog-wrapper h2 {
-    width: 100%; /* takes the full row */
-    text-align: center; /* centers text */
-    margin: 2rem 0 1rem 0; /* spacing above and below */
+        width: 100%; /* takes the full row */
+        text-align: center; /* centers text */
+        margin: 2rem 0 1rem 0; /* spacing above and below */
 }
 </style>

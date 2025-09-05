@@ -183,15 +183,16 @@
         padding-top: 12rem;
     }
     .perfect-card {
-    list-style: none;
-    background-color: #9cd7ff; /* soft highlight color */
-    border-radius: 0.5rem;
-    padding: 1rem;
-    text-align: center;
-    margin: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+        list-style: none;
+        background-color: #9cd7ff; /* soft highlight color */
+        border-radius: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
     }
+    
     .landing-page, .why-us, .perfect-for, .service-wrapper{
         display:block;
         margin: 2rem;
@@ -235,21 +236,22 @@
 
     /* Dots */
     :deep(.carousel__pagination-button) {
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      background-color: #d1d5db; /* Tailwind gray-300 */
-      border: none;
-      transition: all 0.3s ease;
-      cursor: pointer;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: #d1d5db; /* Tailwind gray-300 */
+        border: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
     }
 
     /* Active dot */
     :deep(.carousel__pagination-button--active) {
-      background-color: #111827; /* Tailwind gray-900 */
-      transform: scale(1.2);
+        background-color: #111827; /* Tailwind gray-900 */
+        transform: scale(1.2);
     }
 
+    /* Table view */
     @media (max-width: 768px) {
         #benefits-header {
         font-weight: 800;
@@ -268,10 +270,10 @@
         margin: 0 auto 1rem;
     }
 
-        .mobile-logo {
-            width: 150;
-            height: 150;
-        }
+    .mobile-logo {
+        width: 150;
+        height: 150;
+    }
 
     :deep(.carousel__pagination) {
         position: static !important; /* Removes absolute positioning */
@@ -284,19 +286,19 @@
     
     /* Dots */
     :deep(.carousel__pagination-button) {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background-color: #d1d5db; /* Tailwind gray-300 */
-      border: none;
-      transition: all 0.3s ease;
-      cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #d1d5db; /* Tailwind gray-300 */
+        border: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
     }
     
     /* Active dot */
     :deep(.carousel__pagination-button--active) {
-      background-color: #111827; /* Tailwind gray-900 */
-      transform: scale(1.2);
+        background-color: #111827; /* Tailwind gray-900 */
+        transform: scale(1.2);
     }
 
     .image-slider img {
@@ -314,6 +316,7 @@
 
     }
 
+    /* Mobile View */
     @media (max-width:480px) {
 
     .mobile-logo {
@@ -351,12 +354,12 @@
     }
 
     .perfect-card {
-    list-style: none;
-    background-color: #9cd7ff; /* soft highlight color */
-    border-radius: 0.5rem;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+        list-style: none;
+        background-color: #9cd7ff; /* soft highlight color */
+        border-radius: 0.5rem;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
     }
     
     .perfect-card:hover {

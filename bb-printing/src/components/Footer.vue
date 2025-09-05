@@ -53,20 +53,19 @@
     }
 
     .contact-us-today {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; /* aligns the tops nicely */
-    text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* aligns the tops nicely */
+        text-align: center;
+    }
 
-}
-
-.information li {
+    .information li {
     list-style: none;
     padding-top: 0.5rem;
-}
+    }
 
-.direct-contacts,
-.other-contacts, .information, .working-hours {
+    .direct-contacts,
+    .other-contacts, .information, .working-hours {
         flex: 1; /* makes them take equal space */
     }
 

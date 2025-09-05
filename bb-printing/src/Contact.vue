@@ -1,8 +1,8 @@
 <script setup>
     import infoFooter from './components/Footer.vue'
-    const phone = '60108865575';
+    const phone = '60108865575'; /* Owner Contact */
     const msg = encodeURIComponent('Hello, I would like to inquire about your T-shirts.');
-    const whatsappLink = `https://api.whatsapp.com/send?phone=${phone}&text=${msg}`;
+    const whatsappLink = `https://api.whatsapp.com/send?phone=${phone}&text=${msg}`; // Whatsapp API call
 </script>
 
 <template>
@@ -54,15 +54,15 @@
     }
 
     @media (max-width:480px) {
-        h3 {
-            font-size: 20px;
-            padding-bottom: 1rem;
-        }
+    h3 {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
 
-        .contact-wrapper {
-            text-align: center;
-            display: flex;
-            gap: 0.3rem;
+    .contact-wrapper {
+        text-align: center;
+        display: flex;
+        gap: 0.3rem;
     }
 
     .contact-card {
