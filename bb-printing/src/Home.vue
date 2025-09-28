@@ -12,7 +12,7 @@
     const itemsToShow = ref(window.innerWidth <= 768 ? 1.2 : 3.05) // Mobile view
 
     function handleResize() {
-    itemsToShow.value = window.innerWidth <= 768 ? 1.2 : 3.05
+        itemsToShow.value = window.innerWidth <= 768 ? 1.2 : 3.05
     }
 
     onMounted(() => {
@@ -23,9 +23,9 @@
     })
 
     const carouselConfig = {
-      wrapAround: true,
-      autoplay: false,
-      autoplayTimeout: 50000
+        wrapAround: true,
+        autoplay: false,
+        autoplayTimeout: 50000
     }
 
     // Use computed to merge itemsToShow with config
